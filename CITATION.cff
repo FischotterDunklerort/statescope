@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use StateScope, please cite this software."
+type: software
+title: "StateScope"
+authors:
+  - family-names: "LI"
+    given-names: "SIQI"
+    orcid: "https://orcid.org/0009-0008-1806-3823"
+version: "0.1.2"
+license: "Apache-2.0"

@@ -1,0 +1,45 @@
+{
+  "software": {
+    "name": "StateScope",
+    "version": "0.1.2",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2026 SIQI LI",
+    "authors": [
+      {
+        "given_names": "SIQI",
+        "family_names": "LI",
+        "orcid": "https://orcid.org/0009-0008-1806-3823"
+      }
+    ]
+  },
+  "status": "SOURCE_RELEASE_READY",
+  "scope": "software source and Python distributions",
+  "manuscript": {
+    "file": "StateScope_SQJ_Revised.pdf",
+    "pages": 32,
+    "sha256": "13210d4a4e3f75eacc39eeaca60846c235b68157e6f87e873c4f25e1a044d9d4"
+  },
+  "runtime": {
+    "python_tested": "3.13.9",
+    "scikit_learn": "1.8.0",
+    "default_discovery": "full",
+    "source_wheel_payload_files_unchanged": 118,
+    "original_research_wheel_sha256": "fc10e54fb45eb5aa3261717c024148c2ad9f7893d56d731d701078ebb4afd416",
+    "reviewed_wheel_sha256": "e9356bea2eb6976fd9bc00f49a3835c5a1e65cded334f26f4b03ddbf2567fecb",
+    "reviewed_sdist_sha256": "bb2cf06a5701e9e76d7014de5998738b91396682262955b706557f1730a479aa"
+  },
+  "reproduction": {
+    "default": "synthetic re-execution without archive",
+    "optional_archive": "authorized local result recomputation and graph replay",
+    "graph": {
+      "total": 660,
+      "without_wrong_version_injection": 640,
+      "with_wrong_version_injection": 20
+    }
+  },
+  "evidence": {
+    "redistribution": "NOT APPROVED",
+    "included_in_public_bundle": false
+  },
+  "automatic_publication": "PROHIBITED"
+}

@@ -1,0 +1,132 @@
+{
+  "A-listing": {
+    "retained": "VIOLATION",
+    "replaced": "PASS",
+    "missing": "UNKNOWN",
+    "recovered": "PASS"
+  },
+  "B-zero-weight": {
+    "prediction": "VIOLATION",
+    "continuation": "VIOLATION",
+    "identical_native_trace": true,
+    "excluded_batch_reaches_binary_solver": true,
+    "weights_zero": true,
+    "coefficients_and_intercept_equal": true,
+    "counter_delta": 2
+  },
+  "B-purpose": {
+    "before": {
+      "prediction": "PASS",
+      "continuation": "PASS"
+    },
+    "after": {
+      "prediction": "PASS",
+      "continuation": "UNKNOWN"
+    },
+    "scoring_unchanged": true,
+    "next_update_changes_parameters": true
+  },
+  "B-H2": {
+    "full": {
+      "prediction": "VIOLATION",
+      "continuation": "VIOLATION"
+    },
+    "whole": {
+      "prediction": "UNKNOWN",
+      "continuation": "UNKNOWN"
+    },
+    "origin_omitted": {
+      "prediction": "UNKNOWN",
+      "continuation": "UNKNOWN"
+    },
+    "native_fit_and_state_match": true,
+    "native_source": "EXPOSED"
+  },
+  "C-table8": {
+    "histories": 196,
+    "derived_queries": 2092,
+    "rule_outcomes": {
+      "whole": {
+        "PASS": 350,
+        "VIOLATION": 422,
+        "UNKNOWN": 1320,
+        "false_determinate": 0
+      },
+      "field": {
+        "PASS": 360,
+        "VIOLATION": 430,
+        "UNKNOWN": 1302,
+        "false_determinate": 0
+      },
+      "direct": {
+        "PASS": 350,
+        "VIOLATION": 523,
+        "UNKNOWN": 1219,
+        "false_determinate": 0
+      },
+      "full": {
+        "PASS": 350,
+        "VIOLATION": 533,
+        "UNKNOWN": 1209,
+        "false_determinate": 0
+      },
+      "explicit": {
+        "PASS": 350,
+        "VIOLATION": 533,
+        "UNKNOWN": 1209,
+        "false_determinate": 0
+      }
+    },
+    "subsets": {
+      "Q354": {
+        "determinate": 346,
+        "queries": 354,
+        "histories": 76
+      },
+      "Q152": {
+        "determinate": 150,
+        "queries": 152,
+        "histories": 76
+      },
+      "Q146": {
+        "determinate": 146,
+        "queries": 146,
+        "histories": 73
+      }
+    },
+    "explicit_agreement": 2092,
+    "full_vs_whole_extra_exposure": 111,
+    "full_vs_direct_extra_exposure": 10,
+    "full_only_queries": 6,
+    "histories_with_full_only_queries": 2,
+    "histories_exposed_only_by_full_across_views": 0,
+    "field_pass_full_unknown": 10
+  },
+  "C-table16": {
+    "blocks": {
+      "reviews": 15,
+      "sgd": 15
+    },
+    "executions": 75,
+    "cold_context_seconds": {
+      "full": 8.423,
+      "registered_only": 0.098
+    },
+    "reviews_runtime_ratio": {
+      "full": 3,
+      "registered_only": 1.17
+    },
+    "audit_queries": [
+      90,
+      90
+    ],
+    "evidence_entries": [
+      225,
+      225
+    ],
+    "prediction_and_fitted_arrays": [
+      45,
+      45
+    ]
+  }
+}

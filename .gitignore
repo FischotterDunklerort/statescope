@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+quick-output/
+.test-results/
+evidence-archive/
+reviewed-local-evidence/
+quick-with-archive/
+graph-replay.json

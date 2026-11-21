@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statescope"
+version = "0.1.2"
+description = "Auditing retained training-state provenance under reviewed ML operation contracts"
+authors = [{name = "SIQI LI"}]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11"
+dependencies = [
+  "scikit-learn==1.8.0",
+  "numpy>=1.24.1",
+  "scipy>=1.10.0",
+  "pandas>=2.0",
+  "joblib>=1.3",
+  "threadpoolctl>=3.1",
+  "psutil>=5.9",
+]
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["audit", "coverage_guard", "runtime"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["statescope*", "dmcasrc*"]
